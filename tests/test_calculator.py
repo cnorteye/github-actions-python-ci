@@ -17,5 +17,5 @@ class TestCalculator(unittest.TestCase):
         self.assertEqual(divide(20, 4), 5)
         self.assertEqual(divide(-5, 20), -0.25)
     
-    if __name__ == '__main__':
-        unittest.main()
+if __name__ == '__main__':
+    unittest.main()
